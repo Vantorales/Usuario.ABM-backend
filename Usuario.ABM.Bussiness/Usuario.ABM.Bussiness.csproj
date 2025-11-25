@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Usuario.ABM.Data\Usuario.ABM.Data.csproj" />
+    <ProjectReference Include="..\Usuario.ABM.Entities\Usuario.ABM.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
